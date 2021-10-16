@@ -2,6 +2,8 @@
 
 ### Video Walkthrough:
 
+https://youtu.be/URbR4_3REmY
+
 # Description
 
 - This is the approximation of an eshop back end.

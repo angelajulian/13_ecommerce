@@ -1,25 +1,29 @@
 {
-  "name": "13_ecommerce",
+  "name": "module-13-challenge-orm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angelajulian/13_ecommerce.git"
+    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/angelajulian/13_ecommerce/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   },
-  "homepage": "https://github.com/angelajulian/13_ecommerce#readme",
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
-    "sequelize": "^6.6.5"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.22.4"
   }
 }

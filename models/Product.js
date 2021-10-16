@@ -31,9 +31,8 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
       validate: {
-        isInteger: true,
-        // I know validate number is different than validate INT
-        // but hell if I'm allowing 1/2 a bag of coffee for sale or something
+        isNumeric: true,
+        // it is upsetting that I had to change this to isNumeric :(
       },
     },
     category_id: {
